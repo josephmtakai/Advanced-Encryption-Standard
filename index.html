@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure File Encryption/Decryption</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Secure File Encryption/Decryption</h1>
+        <input type="file" id="file-input" accept=".txt,.pdf,.doc,.docx,.xls,.xlsx,.ppt,.pptx">
+        <button id="encrypt-button">Encrypt File</button>
+        <button id="decrypt-button">Decrypt File</button>
+        <a id="download-link" style="display: none;" download="encrypted_file.txt">Download Encrypted File</a>
+        <p id="status"></p>
+    </div>
+    
+    <script src="aes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
